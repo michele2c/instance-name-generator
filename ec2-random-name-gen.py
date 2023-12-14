@@ -11,11 +11,8 @@ Project - EC2 Random Name Generator
 # The Python Script should:
 
 # 1. All the user to input how many EC2 instances they want names for and output the same amount of unique names.
-
 # 2. Allow the user to input the name of their department that is used in the unique name.
-
 # 3. Generate random characters and numbers that will be included in the unique name.
-
 # 4. Push your code to GitHub and include the link in your LinkedIn write up.
 
 # example of format from AWS -> name-e7b1682894434ec5890312c7c403c011
