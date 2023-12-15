@@ -13,7 +13,12 @@ Project - EC2 Random Name Generator
 # 1. All the user to input how many EC2 instances they want names for and output the same amount of unique names.
 # 2. Allow the user to input the name of their department that is used in the unique name.
 # 3. Generate random characters and numbers that will be included in the unique name.
-# 4. Push your code to GitHub and include the link in your LinkedIn write up.
+
+# 4. The only departments that should use this Name Generator are the Marketing, Accounting, and FinOps Departments. 
+# List these departments as options and if a user puts another department, print a message that they should not use this Name Generator. 
+# Be sure to account for incorrect upper or lowercase letters in the correct department. Example: a user inputs accounting vs Accounting.
+
+# 5. Turn the above into a Function and execute the Function to verify it works.
 
 # example of format from AWS -> name-e7b1682894434ec5890312c7c403c011
 
