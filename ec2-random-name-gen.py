@@ -27,20 +27,19 @@ import string
 
 
 num_instances = int(input("Number of instances: "))
-dep_name = str(input("Department name: "))
+dep_name = str.lower((input("Department name: ")))
 
 # validate department name
-if dep_name.lower() == "marketing" or dep_name.lower() == "accounting" or dep_name.lower() == "finops":
+if dep_name == "marketing" or dep_name == "accounting" or dep_name == "finops":
   # initialize list
     instances_list = []
-    for x in range(num_instances):
-      x += 1
+    for i in range(num_instances):
       # define the lenght of the string
       str_size = 15
       # random part of the instance name
-      random_name = ''.join(random.choices(string.hexdigits, k=str_size))
+      random_name = ''.join(random.choices(string.ascii_lowercase + string.digits, k=str_size))
       # combine department and random name
-      instance_name = dep_name.lower() + "-" + random_name.lower()
+      instance_name = dep_name + "-" + random_name
       # append names to the list
       instances_list.append(instance_name)
     print(instances_list)
